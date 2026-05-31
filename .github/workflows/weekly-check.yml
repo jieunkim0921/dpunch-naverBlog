@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/results.json
+          git add docs/results.json docs/history.json
           git commit -m "점검 결과 업데이트 ($(date +'%Y-%m-%d'))" || echo "변경 사항 없음"
           git push
