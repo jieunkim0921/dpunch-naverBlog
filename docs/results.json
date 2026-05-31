@@ -1,41 +1,363 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "아직 실행 전 (샘플 데이터)",
+  "checked_at": "2026-05-31 22:14 KST",
   "max_rank": 100,
   "summary": {
-    "total": 4,
-    "title_exposed": 3,
-    "title_missing": 1
+    "total": 50,
+    "title_exposed": 50,
+    "title_missing": 0
   },
   "posts": [
     {
-      "title": "강남 신상 카페 추천 베스트5 내돈내산 후기",
-      "link": "https://blog.naver.com/giant7000/223000000001",
-      "keyword": "강남 카페",
-      "title_rank": 2,
-      "keyword_rank": 14
-    },
-    {
-      "title": "겨울철 자동차 배터리 관리 방법 총정리",
-      "link": "https://blog.naver.com/giant7000/223000000002",
-      "keyword": "자동차 배터리",
-      "title_rank": 5,
-      "keyword_rank": 38
-    },
-    {
-      "title": "제주도 3박4일 가족여행 코스 추천",
-      "link": "https://blog.naver.com/giant7000/223000000003",
-      "keyword": "제주도 가족여행",
+      "title": "대학교홈페이지제작 운영까지 고려해야 하는 이유",
+      "link": "https://blog.naver.com/giant7000/224296343060?fromRss=true&trackingCode=rss",
+      "keyword": "대학교홈페이지제작 운영",
       "title_rank": 1,
-      "keyword_rank": 7
+      "keyword_rank": 1
     },
     {
-      "title": "홈카페 라떼아트 입문 도구 추천",
-      "link": "https://blog.naver.com/giant7000/223000000004",
-      "keyword": "라떼아트 도구",
-      "title_rank": null,
+      "title": "맞춤형홈페이지제작 비용 낭비 줄이는 방법",
+      "link": "https://blog.naver.com/giant7000/224296038448?fromRss=true&trackingCode=rss",
+      "keyword": "맞춤형홈페이지제작 낭비",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "디지털 에이전시, 디자인펀치를 소개합니다.",
+      "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
+      "keyword": "디지털 에이전시",
+      "title_rank": 1,
+      "keyword_rank": 12
+    },
+    {
+      "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
+      "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
+      "keyword": "관광바우처 업체",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "병원홈페이지제작 사례 다나음 한방병원",
+      "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
+      "keyword": "병원홈페이지제작 사례",
+      "title_rank": 1,
+      "keyword_rank": 6
+    },
+    {
+      "title": "맞춤형홈페이지제작 꼭 필요한 회사가 따로 있습니다",
+      "link": "https://blog.naver.com/giant7000/224280983295?fromRss=true&trackingCode=rss",
+      "keyword": "맞춤형홈페이지제작 필요한",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "에이전시 홈페이지 제작 사례 비주얼 디렉터스",
+      "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
+      "keyword": "에이전시 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "디자인펀치 홈페이지가 새롭게 리뉴얼되었습니다 (feat.영상 챗봇 이벤트)",
+      "link": "https://blog.naver.com/giant7000/224272071962?fromRss=true&trackingCode=rss",
+      "keyword": "디자인펀치 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "2026 관광바우처 수행기관 (주)디자인펀치",
+      "link": "https://blog.naver.com/giant7000/224269957856?fromRss=true&trackingCode=rss",
+      "keyword": "관광바우처 수행기관",
+      "title_rank": 1,
+      "keyword_rank": 2
+    },
+    {
+      "title": "뷰티 브랜드 쇼핑몰 제작 사례 플라링크",
+      "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
+      "keyword": "뷰티 브랜드",
+      "title_rank": 1,
+      "keyword_rank": 74
+    },
+    {
+      "title": "홈페이지 SEO 제대로 하고 있는지 확인하는 방법",
+      "link": "https://blog.naver.com/giant7000/224257546336?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 SEO",
+      "title_rank": 1,
+      "keyword_rank": 3
+    },
+    {
+      "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
+      "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
+      "keyword": "다국어홈페이지제작 단순",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "대학교 연구실홈페이지제작 사례 성신여대 합성 생물학 연구소",
+      "link": "https://blog.naver.com/giant7000/224250161495?fromRss=true&trackingCode=rss",
+      "keyword": "대학교 연구실홈페이지제작",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "병원 랜딩페이지 제작 사례 더바른치과의원",
+      "link": "https://blog.naver.com/giant7000/224241961346?fromRss=true&trackingCode=rss",
+      "keyword": "병원 랜딩페이지",
+      "title_rank": 1,
+      "keyword_rank": 3
+    },
+    {
+      "title": "의료기기 제조업 영문 홈페이지 제작 사례 테바코리아",
+      "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
+      "keyword": "의료기기 제조업",
+      "title_rank": 1,
+      "keyword_rank": 15
+    },
+    {
+      "title": "미술관 홈페이지 제작 사례 그림손갤러리",
+      "link": "https://blog.naver.com/giant7000/224241046481?fromRss=true&trackingCode=rss",
+      "keyword": "미술관 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 5
+    },
+    {
+      "title": "공공기관 홈페이지 제작 사례 굿윌스토어",
+      "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
+      "keyword": "공공기관 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 4
+    },
+    {
+      "title": "제조 기업 홈페이지 제작 JSS 제작 사례",
+      "link": "https://blog.naver.com/giant7000/224226291950?fromRss=true&trackingCode=rss",
+      "keyword": "제조 기업",
+      "title_rank": 1,
+      "keyword_rank": 67
+    },
+    {
+      "title": "기업 홈페이지 제작 사례 제일종합관리",
+      "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
+      "keyword": "기업 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 72
+    },
+    {
+      "title": "피부미용 레이저 헬리오스 785 랜딩페이지 제작 사례",
+      "link": "https://blog.naver.com/giant7000/224217075998?fromRss=true&trackingCode=rss",
+      "keyword": "피부미용 레이저",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "홈페이지 유지보수란? 운영 전 꼭 알아야 할 기준",
+      "link": "https://blog.naver.com/giant7000/224209381095?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 유지보수란",
+      "title_rank": 1,
+      "keyword_rank": 3
+    },
+    {
+      "title": "AI 교육 홈페이지 STEAM융합교육센터 제작 사례",
+      "link": "https://blog.naver.com/giant7000/224208849396?fromRss=true&trackingCode=rss",
+      "keyword": "AI 교육",
+      "title_rank": 1,
+      "keyword_rank": null
+    },
+    {
+      "title": "맞춤형 홈페이지 제작 우리 회사에 꼭 필요할까?",
+      "link": "https://blog.naver.com/giant7000/224201444093?fromRss=true&trackingCode=rss",
+      "keyword": "맞춤형 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 37
+    },
+    {
+      "title": "치과홈페이지제작 경쟁사와 차이를 만드는 5가지 기준",
+      "link": "https://blog.naver.com/giant7000/224200445458?fromRss=true&trackingCode=rss",
+      "keyword": "치과홈페이지제작 경쟁사",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "제조업홈페이지제작 잘 만든 회사들의 공통점",
+      "link": "https://blog.naver.com/giant7000/224199791034?fromRss=true&trackingCode=rss",
+      "keyword": "제조업홈페이지제작 만든",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "프랜차이즈홈페이지제작 업체 선정 전 확인해야 할 포인트",
+      "link": "https://blog.naver.com/giant7000/224191977977?fromRss=true&trackingCode=rss",
+      "keyword": "프랜차이즈홈페이지제작 업체",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "맞춤형홈페이지제작 템플릿과 다른점은?",
+      "link": "https://blog.naver.com/giant7000/224185372598?fromRss=true&trackingCode=rss",
+      "keyword": "맞춤형홈페이지제작 템플릿",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "카페24쇼핑몰제작 실패없이 시작하는 방법",
+      "link": "https://blog.naver.com/giant7000/224184145091?fromRss=true&trackingCode=rss",
+      "keyword": "실패없 시작하",
+      "title_rank": 1,
+      "keyword_rank": null
+    },
+    {
+      "title": "홈페이지 제작 비용 절감하는 방법 3가지",
+      "link": "https://blog.naver.com/giant7000/224176248898?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 제작",
+      "title_rank": 1,
+      "keyword_rank": null
+    },
+    {
+      "title": "한방병원 홈페이지 예쁘게 제작해도 왜 예약은 안 늘어날까?",
+      "link": "https://blog.naver.com/giant7000/224176205722?fromRss=true&trackingCode=rss",
+      "keyword": "한방병원 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 13
+    },
+    {
+      "title": "기업 홈페이지 기획없이 제작하면 생기는 상황",
+      "link": "https://blog.naver.com/giant7000/224174350317?fromRss=true&trackingCode=rss",
+      "keyword": "기업 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 54
+    },
+    {
+      "title": "무료홈페이지제작 이런 경우엔 피하세요",
+      "link": "https://blog.naver.com/giant7000/224167733839?fromRss=true&trackingCode=rss",
+      "keyword": "무료홈페이지제작 이런",
+      "title_rank": 1,
+      "keyword_rank": 2
+    },
+    {
+      "title": "홈페이지 도메인 vs 호스팅 뭐가 다른가요?",
+      "link": "https://blog.naver.com/giant7000/224167535441?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 도메인",
+      "title_rank": 1,
+      "keyword_rank": 18
+    },
+    {
+      "title": "수출바우처홈페이지제작 활용도를 높이는 사전 준비",
+      "link": "https://blog.naver.com/giant7000/224159584764?fromRss=true&trackingCode=rss",
+      "keyword": "수출바우처홈페이지제작 활용도",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "엔터테인먼트 홈페이지 제작 설계 포인트 3가지",
+      "link": "https://blog.naver.com/giant7000/224159357431?fromRss=true&trackingCode=rss",
+      "keyword": "엔터테인먼트 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "쇼핑몰 제작 카페24로 시작하면 좋은 이유 4가지",
+      "link": "https://blog.naver.com/giant7000/224156183946?fromRss=true&trackingCode=rss",
+      "keyword": "쇼핑몰 제작",
+      "title_rank": 1,
+      "keyword_rank": 42
+    },
+    {
+      "title": "랜딩페이지 vs 홈페이지 제작 지금 상황엔 뭐가 맞을까?",
+      "link": "https://blog.naver.com/giant7000/224150917483?fromRss=true&trackingCode=rss",
+      "keyword": "랜딩페이지 vs",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "홈페이지 제작 업체 가격 말고 봐야 할 기준 3가지",
+      "link": "https://blog.naver.com/giant7000/224150364512?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 제작",
+      "title_rank": 1,
+      "keyword_rank": null
+    },
+    {
+      "title": "기업 홈페이지 리뉴얼 망하는 경우엔 공통점이 있다",
+      "link": "https://blog.naver.com/giant7000/224148314588?fromRss=true&trackingCode=rss",
+      "keyword": "기업 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 32
+    },
+    {
+      "title": "중소기업 홈페이지제작 성과로 이어지는 사이트 구성",
+      "link": "https://blog.naver.com/giant7000/224141613758?fromRss=true&trackingCode=rss",
+      "keyword": "중소기업 홈페이지제작",
+      "title_rank": 1,
+      "keyword_rank": 61
+    },
+    {
+      "title": "제조 기업 홈페이지 한국알박 제작 사례",
+      "link": "https://blog.naver.com/giant7000/224141613469?fromRss=true&trackingCode=rss",
+      "keyword": "제조 기업",
+      "title_rank": 1,
+      "keyword_rank": 78
+    },
+    {
+      "title": "정형외과홈페이지 누셀린클리닉 제작 사례",
+      "link": "https://blog.naver.com/giant7000/224138103603?fromRss=true&trackingCode=rss",
+      "keyword": "정형외과홈페이지 누셀린클리닉",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "반응형 홈페이지 제작 모든 사이트에 필요할까?",
+      "link": "https://blog.naver.com/giant7000/224125487555?fromRss=true&trackingCode=rss",
+      "keyword": "반응형 홈페이지",
+      "title_rank": 1,
       "keyword_rank": 22
+    },
+    {
+      "title": "홈페이지 제작 처음이라면 꼭 확인해야 할 3가지 기준",
+      "link": "https://blog.naver.com/giant7000/224117871758?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 제작",
+      "title_rank": 1,
+      "keyword_rank": null
+    },
+    {
+      "title": "신환율 높이는 한의원 홈페이지 제작 이것만 바꿔보세요",
+      "link": "https://blog.naver.com/giant7000/224116947564?fromRss=true&trackingCode=rss",
+      "keyword": "신환율 높이",
+      "title_rank": 1,
+      "keyword_rank": 1
+    },
+    {
+      "title": "바이오 홈페이지 제작 왜 일반 웹사이트와는 달라야 할까요?",
+      "link": "https://blog.naver.com/giant7000/224114793278?fromRss=true&trackingCode=rss",
+      "keyword": "바이오 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 2
+    },
+    {
+      "title": "카페24 쇼핑몰 운영 중 유지보수 기준은 이렇게 잡으세요",
+      "link": "https://blog.naver.com/giant7000/224109605947?fromRss=true&trackingCode=rss",
+      "keyword": "쇼핑몰 운영",
+      "title_rank": 1,
+      "keyword_rank": 22
+    },
+    {
+      "title": "홈페이지리뉴얼 디자인보다 먼저 고민해야 할 요소는?",
+      "link": "https://blog.naver.com/giant7000/224106334982?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지리뉴얼 디자인",
+      "title_rank": 1,
+      "keyword_rank": 3
+    },
+    {
+      "title": "예산 맞춰 진행하는 제조업홈페이지제작 방법",
+      "link": "https://blog.naver.com/giant7000/224105345473?fromRss=true&trackingCode=rss",
+      "keyword": "예산 맞춰",
+      "title_rank": 1,
+      "keyword_rank": 10
+    },
+    {
+      "title": "관리하기 쉬운 학회홈페이지제작 기준 3가지",
+      "link": "https://blog.naver.com/giant7000/224101602040?fromRss=true&trackingCode=rss",
+      "keyword": "관리하기 쉬운",
+      "title_rank": 1,
+      "keyword_rank": 45
     }
   ]
 }
