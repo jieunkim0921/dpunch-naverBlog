@@ -38,6 +38,7 @@ CLIENT_SECRET = os.environ.get("NAVER_CLIENT_SECRET", "").strip()
 MAX_RANK = int(os.environ.get("MAX_RANK", "100"))
 SLEEP = float(os.environ.get("SLEEP", "0.3"))          # API 호출 간 대기
 OUTPUT = os.environ.get("OUTPUT", "docs/results.json")  # 결과 저장 위치
+HISTORY = os.environ.get("HISTORY", "docs/history.json")  # 추세용 누적 기록
 
 # 알림 (선택): NOTIFY_METHOD = "email" 또는 "webhook"
 NOTIFY_METHOD = os.environ.get("NOTIFY_METHOD", "").strip().lower()
@@ -235,6 +236,14 @@ def main():
 
     overrides = load_keyword_overrides()
 
+    # 지난 점검 결과(있으면)를 읽어 '노출 여부'를 비교용으로 보관
+    prev = load_json(OUTPUT)
+    prev_exposed = {}
+    if prev:
+        for p in prev.get("posts", []):
+            prev_exposed[extract_log_no(p.get("link", ""))] = (p.get("title_rank") is not None)
+    has_prev = bool(prev_exposed)
+
     print(f"[2/3] 제목/키워드 검색 순위 확인 (최대 {MAX_RANK}위까지)...")
     results = []
     missing = []
@@ -248,39 +257,83 @@ def main():
             print(f"  [{i}/{len(posts)}] 검색 실패({e}) -> 건너뜀")
             continue
 
+        now_exposed = title_rank is not None
+        key = post["log_no"]
+        if not has_prev:
+            change = "first"               # 첫 점검 (비교 대상 없음)
+        elif key not in prev_exposed:
+            change = "new_post"            # 이번에 처음 등장한 글
+        elif prev_exposed[key] and not now_exposed:
+            change = "dropped"             # 지난주 노출 -> 이번주 사라짐 (중요)
+        elif not prev_exposed[key] and now_exposed:
+            change = "exposed_now"         # 안 나오다가 새로 노출됨
+        elif not now_exposed:
+            change = "still_missing"       # 계속 미노출
+        else:
+            change = "stable"             # 노출 유지
+
         row = {
             "title": post["title"],
             "link": post["link"],
             "keyword": keyword,
             "title_rank": title_rank,
             "keyword_rank": keyword_rank,
+            "change": change,
         }
         results.append(row)
         tr = f"{title_rank}위" if title_rank else "미노출"
         kr = f"{keyword_rank}위" if keyword_rank else "미노출"
-        print(f"  [{i}/{len(posts)}] 제목:{tr:>6} | 키워드({keyword}):{kr:>6} | {post['title']}")
+        flag = {"dropped": " ▼사라짐", "exposed_now": " ▲노출", "new_post": " +새글"}.get(change, "")
+        print(f"  [{i}/{len(posts)}] 제목:{tr:>6} | 키워드({keyword}):{kr:>6}{flag} | {post['title']}")
         if title_rank is None:
             row2 = dict(row); row2["_total"] = len(posts)
             missing.append(row2)
         time.sleep(SLEEP)
 
+    def brief(r):
+        return {"title": r["title"], "link": r["link"], "keyword": r["keyword"]}
+
+    changes = {
+        "compared_to": prev.get("checked_at") if prev else None,
+        "dropped": [brief(r) for r in results if r["change"] == "dropped"],
+        "exposed_now": [brief(r) for r in results if r["change"] == "exposed_now"],
+        "new_posts": [brief(r) for r in results if r["change"] == "new_post"],
+    }
+
+    total = len(results)
+    exposed = sum(1 for r in results if r["title_rank"])
     payload = {
         "blog_id": BLOG_ID,
         "blog_url": f"https://blog.naver.com/{BLOG_ID}",
         "checked_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M KST"),
         "max_rank": MAX_RANK,
         "summary": {
-            "total": len(results),
-            "title_exposed": sum(1 for r in results if r["title_rank"]),
-            "title_missing": sum(1 for r in results if not r["title_rank"]),
+            "total": total,
+            "title_exposed": exposed,
+            "title_missing": total - exposed,
         },
+        "changes": changes,
         "posts": results,
     }
 
     os.makedirs(os.path.dirname(OUTPUT) or ".", exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"[3/3] 결과 저장: {OUTPUT} (누락 {len(missing)}건)")
+
+    # 추세용 기록 누적 (같은 날 재실행이면 마지막 항목 교체)
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    hist = load_json(HISTORY) or {"runs": []}
+    entry = {"date": today, "checked_at": payload["checked_at"],
+             "total": total, "exposed": exposed, "missing": total - exposed}
+    if hist["runs"] and hist["runs"][-1].get("date") == today:
+        hist["runs"][-1] = entry
+    else:
+        hist["runs"].append(entry)
+    with open(HISTORY, "w", encoding="utf-8") as f:
+        json.dump(hist, f, ensure_ascii=False, indent=2)
+
+    print(f"[3/3] 결과 저장: {OUTPUT} (누락 {total - exposed}건, "
+          f"사라짐 {len(changes['dropped'])} / 새노출 {len(changes['exposed_now'])} / 새글 {len(changes['new_posts'])})")
 
     # 로컬에서 바로 보도록, 데이터를 내장한 report.html 생성 후 브라우저로 열기
     report = write_standalone_report(payload)
@@ -296,6 +349,15 @@ def main():
     notify(missing)
 
 
+def load_json(path):
+    """JSON 파일을 안전하게 읽는다. 없거나 오류면 None."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
 def write_standalone_report(payload):
     """docs/index.html 템플릿에 결과 데이터를 끼워 넣어, 서버 없이 더블클릭으로 열 수 있는
     docs/report.html 을 만든다. (템플릿이 없으면 건너뜀)"""
@@ -305,8 +367,10 @@ def write_standalone_report(payload):
         return None
     with open(tpl_path, encoding="utf-8") as f:
         tpl = f.read()
-    inject = ("<script>window.__RESULTS__="
-              + json.dumps(payload, ensure_ascii=False) + ";</script>\n</head>")
+    hist = load_json(HISTORY) or {"runs": []}
+    inject = ("<script>window.__RESULTS__=" + json.dumps(payload, ensure_ascii=False)
+              + ";window.__HISTORY__=" + json.dumps(hist, ensure_ascii=False)
+              + ";</script>\n</head>")
     out_path = os.path.join(base, "report.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(tpl.replace("</head>", inject, 1))
