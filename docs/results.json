@@ -1,0 +1,41 @@
+{
+  "blog_id": "giant7000",
+  "blog_url": "https://blog.naver.com/giant7000",
+  "checked_at": "아직 실행 전 (샘플 데이터)",
+  "max_rank": 100,
+  "summary": {
+    "total": 4,
+    "title_exposed": 3,
+    "title_missing": 1
+  },
+  "posts": [
+    {
+      "title": "강남 신상 카페 추천 베스트5 내돈내산 후기",
+      "link": "https://blog.naver.com/giant7000/223000000001",
+      "keyword": "강남 카페",
+      "title_rank": 2,
+      "keyword_rank": 14
+    },
+    {
+      "title": "겨울철 자동차 배터리 관리 방법 총정리",
+      "link": "https://blog.naver.com/giant7000/223000000002",
+      "keyword": "자동차 배터리",
+      "title_rank": 5,
+      "keyword_rank": 38
+    },
+    {
+      "title": "제주도 3박4일 가족여행 코스 추천",
+      "link": "https://blog.naver.com/giant7000/223000000003",
+      "keyword": "제주도 가족여행",
+      "title_rank": 1,
+      "keyword_rank": 7
+    },
+    {
+      "title": "홈카페 라떼아트 입문 도구 추천",
+      "link": "https://blog.naver.com/giant7000/223000000004",
+      "keyword": "라떼아트 도구",
+      "title_rank": null,
+      "keyword_rank": 22
+    }
+  ]
+}
