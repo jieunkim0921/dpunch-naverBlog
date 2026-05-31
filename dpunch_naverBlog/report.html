@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>블로그 검색 노출 모니터</title>
+<link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f1ea; --paper:#fbfaf6; --card:#ffffff; --ink:#1c1b19; --muted:#6f6b63;
+    --line:#e4ded1; --accent:#c2410c; --good:#15803d; --good-bg:#e7f3ea;
+    --warn:#b45309; --warn-bg:#fbf0df; --bad:#b3261e; --bad-bg:#fbe9e7;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+    --sans:'Pretendard','Pretendard Variable',-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink); font-family:var(--sans);
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(var(--line) 0.5px,transparent 0.5px);
+    background-size:22px 22px;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:40px 24px 80px}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:8px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:clamp(28px,5vw,44px);font-weight:800;letter-spacing:-.02em;margin:6px 0 14px}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13.5px;color:var(--muted)}
+  .meta b{color:var(--ink);font-weight:600}
+  .meta a{color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor}
+
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:20px;position:relative;overflow:hidden;
+    opacity:0;transform:translateY(10px);animation:rise .5s forwards}
+  .stat .n{font-family:var(--mono);font-size:40px;font-weight:700;line-height:1}
+  .stat .l{font-size:13px;color:var(--muted);margin-top:8px}
+  .stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px}
+  .stat.total::before{background:var(--ink)}
+  .stat.ok::before{background:var(--good)} .stat.ok .n{color:var(--good)}
+  .stat.miss::before{background:var(--bad)} .stat.miss .n{color:var(--bad)}
+
+  .section-h{display:flex;align-items:baseline;gap:12px;margin:36px 0 14px}
+  .section-h h2{font-size:19px;font-weight:700;letter-spacing:-.01em}
+  .section-h .tag{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+  .alert{background:var(--bad-bg);border:1px solid #f2c4be;border-left:5px solid var(--bad);
+    border-radius:12px;padding:8px 8px 4px}
+  .alert.empty{background:var(--good-bg);border-color:#bfe0c8;border-left-color:var(--good);
+    padding:18px 20px;font-size:14px;color:#14532d;font-weight:500}
+  .miss-item{display:flex;justify-content:space-between;align-items:center;gap:16px;
+    padding:12px 14px;border-radius:8px}
+  .miss-item+.miss-item{border-top:1px solid #f2cfca}
+  .miss-item .t{font-weight:600;font-size:15px}
+  .miss-item .s{font-size:12.5px;color:var(--muted);margin-top:2px}
+  .miss-item a{color:var(--accent);text-decoration:none;font-size:12.5px;white-space:nowrap}
+  .kwfound{color:var(--warn);font-weight:600}
+
+  .tablecard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:middle}
+  thead th{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+    font-weight:600;background:var(--paper)}
+  tbody tr{opacity:0;transform:translateY(6px);animation:rise .4s forwards}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#fcfbf7}
+  .num{font-family:var(--mono);text-align:center;width:42px;color:var(--muted)}
+  .post-t{font-weight:600;display:block}
+  .post-t a{color:inherit;text-decoration:none}
+  .post-t a:hover{color:var(--accent)}
+  .kw{display:inline-block;font-size:12.5px;color:var(--muted);
+    background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:2px 8px;margin-top:4px}
+  .rank{font-family:var(--mono);font-weight:700;font-size:15px;text-align:center}
+  .rank small{font-weight:500;font-size:11px}
+  .r-top{color:var(--good)} .r-mid{color:var(--warn)} .r-low{color:var(--ink)}
+  .r-none{color:var(--bad)}
+  .badge{display:inline-block;font-size:12px;font-weight:700;padding:4px 11px;border-radius:999px}
+  .b-ok{background:var(--good-bg);color:var(--good)}
+  .b-miss{background:var(--bad-bg);color:var(--bad)}
+
+  footer{margin-top:34px;font-size:12.5px;color:var(--muted);line-height:1.7;
+    border-top:1px solid var(--line);padding-top:18px}
+  .err{background:var(--warn-bg);border:1px solid #ecd3a3;border-radius:12px;
+    padding:18px 20px;font-size:14px;color:var(--warn)}
+
+  @keyframes rise{to{opacity:1;transform:none}}
+  @media(max-width:680px){
+    .stats{grid-template-columns:1fr}
+    thead th:nth-child(4),tbody td:nth-child(4){display:none}
+    .miss-item{flex-direction:column;align-items:flex-start;gap:4px}
+  }
+</style>
+<script>window.__RESULTS__={"blog_id": "giant7000", "blog_url": "https://blog.naver.com/giant7000", "checked_at": "아직 실행 전 (샘플 데이터)", "max_rank": 100, "summary": {"total": 4, "title_exposed": 3, "title_missing": 1}, "posts": [{"title": "강남 신상 카페 추천 베스트5 내돈내산 후기", "link": "https://blog.naver.com/giant7000/223000000001", "keyword": "강남 카페", "title_rank": 2, "keyword_rank": 14}, {"title": "겨울철 자동차 배터리 관리 방법 총정리", "link": "https://blog.naver.com/giant7000/223000000002", "keyword": "자동차 배터리", "title_rank": 5, "keyword_rank": 38}, {"title": "제주도 3박4일 가족여행 코스 추천", "link": "https://blog.naver.com/giant7000/223000000003", "keyword": "제주도 가족여행", "title_rank": 1, "keyword_rank": 7}, {"title": "홈카페 라떼아트 입문 도구 추천", "link": "https://blog.naver.com/giant7000/223000000004", "keyword": "라떼아트 도구", "title_rank": null, "keyword_rank": 22}]};</script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Weekly Naver SEO Monitor</div>
+    <h1>블로그 검색 노출 점검</h1>
+    <div class="meta" id="meta">불러오는 중…</div>
+  </header>
+
+  <div id="content"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const rankClass = r => r==null ? 'r-none' : r<=10 ? 'r-top' : r<=30 ? 'r-mid' : 'r-low';
+const rankText  = r => r==null ? '미노출' : r;
+
+function render(d){
+  const s = d.summary;
+  document.getElementById('meta').innerHTML =
+    `대상 <b><a href="${d.blog_url}" target="_blank">blog.naver.com/${d.blog_id}</a></b>`
+    + `<span>마지막 점검 · <b>${d.checked_at}</b></span>`
+    + `<span>순위 탐색 범위 · <b>상위 ${d.max_rank}위</b></span>`;
+
+  const missing = d.posts.filter(p => p.title_rank == null);
+
+  let html = `
+    <div class="stats">
+      <div class="stat total"><div class="n">${s.total}</div><div class="l">점검한 글</div></div>
+      <div class="stat ok"><div class="n">${s.title_exposed}</div><div class="l">제목 검색 노출</div></div>
+      <div class="stat miss"><div class="n">${s.title_missing}</div><div class="l">제목 검색 누락</div></div>
+    </div>`;
+
+  // 누락 목록
+  html += `<div class="section-h"><h2>누락 목록</h2><span class="tag">제목 전체 검색에서 안 나온 글</span></div>`;
+  if(missing.length === 0){
+    html += `<div class="alert empty">모든 글이 제목 검색에서 정상 노출되고 있습니다. 👍</div>`;
+  } else {
+    html += `<div class="alert">` + missing.map(p => {
+      const kw = p.keyword_rank!=null
+        ? `중요키워드 '${p.keyword}'로는 <span class="kwfound">${p.keyword_rank}위</span> 노출`
+        : `중요키워드 '${p.keyword}'로도 미노출`;
+      return `<div class="miss-item">
+        <div><div class="t">${esc(p.title)}</div><div class="s">${kw}</div></div>
+        <a href="${p.link}" target="_blank">글 보기 ↗</a></div>`;
+    }).join('') + `</div>`;
+  }
+
+  // 전체 표
+  html += `<div class="section-h"><h2>전체 결과</h2><span class="tag">제목 검색 · 중요키워드 검색 순위</span></div>`;
+  html += `<div class="tablecard"><table><thead><tr>
+      <th class="num">#</th><th>포스팅</th>
+      <th style="text-align:center">제목 검색</th>
+      <th>중요 키워드</th>
+      <th style="text-align:center">키워드 검색</th>
+      <th style="text-align:center">상태</th>
+    </tr></thead><tbody>`;
+  d.posts.forEach((p,i)=>{
+    html += `<tr style="animation-delay:${i*40}ms">
+      <td class="num">${i+1}</td>
+      <td><span class="post-t"><a href="${p.link}" target="_blank">${esc(p.title)}</a></span></td>
+      <td class="rank ${rankClass(p.title_rank)}">${rankText(p.title_rank)}<small>${p.title_rank?'위':''}</small></td>
+      <td><span class="kw">${esc(p.keyword)}</span></td>
+      <td class="rank ${rankClass(p.keyword_rank)}">${rankText(p.keyword_rank)}<small>${p.keyword_rank?'위':''}</small></td>
+      <td style="text-align:center"><span class="badge ${p.title_rank?'b-ok':'b-miss'}">${p.title_rank?'정상':'누락'}</span></td>
+    </tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  document.getElementById('content').innerHTML = html;
+  document.getElementById('footer').innerHTML =
+    `※ 표시되는 순위는 네이버가 공식 제공하는 <b>블로그 검색 API(정확도순)</b> 결과 기준의 근사값입니다. `
+    + `실제 naver.com 통합검색 화면 순위와는 다를 수 있습니다.<br>`
+    + `※ 매주 자동 점검되며, 점검 시점에 RSS로 수집된 최근 글을 대상으로 합니다. `
+    + `'미노출'은 상위 ${d.max_rank}위 안에서 글을 찾지 못했다는 의미입니다.`;
+}
+
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+if (window.__RESULTS__) {            // 로컬 report.html: 데이터가 파일에 내장된 경우
+  render(window.__RESULTS__);
+} else
+fetch('results.json?_=' + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(e => {
+    document.getElementById('meta').textContent = '';
+    document.getElementById('content').innerHTML =
+      `<div class="err">결과 데이터(results.json)를 불러오지 못했습니다 (${e.message}).<br>`
+      + `GitHub Pages에 배포된 주소로 접속했는지, 점검이 한 번 이상 실행됐는지 확인해 주세요. `
+      + `(로컬에서 파일을 더블클릭해 여는 경우 브라우저 보안정책상 안 보일 수 있습니다.)</div>`;
+  });
+</script>
+</body>
+</html>
