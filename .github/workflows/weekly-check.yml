@@ -1,0 +1,46 @@
+name: 네이버 블로그 검색 노출 점검
+
+on:
+  schedule:
+    # 매주 월요일 오전 9시(KST). GitHub cron은 UTC 기준 → 00:00 UTC = 09:00 KST
+    - cron: "0 0 * * 1"
+  workflow_dispatch:   # 수동 실행 버튼
+
+permissions:
+  contents: write       # 결과(JSON)를 저장소에 다시 커밋하기 위해 필요
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 코드 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 점검 실행
+        env:
+          NAVER_BLOG_ID: ${{ secrets.NAVER_BLOG_ID }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          MAX_RANK: "100"
+          # --- 알림(선택) ---
+          NOTIFY_METHOD: ${{ secrets.NOTIFY_METHOD }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: python check.py
+
+      - name: 결과 사이트 갱신(커밋)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/results.json
+          git commit -m "점검 결과 업데이트 ($(date +'%Y-%m-%d'))" || echo "변경 사항 없음"
+          git push
