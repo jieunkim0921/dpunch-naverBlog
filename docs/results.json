@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-05-31 22:54 KST",
+  "checked_at": "2026-06-01 13:06 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,7 +9,7 @@
     "title_missing": 0
   },
   "changes": {
-    "compared_to": "2026-05-31 22:14 KST",
+    "compared_to": "2026-05-31 22:54 KST",
     "dropped": [],
     "exposed_now": [],
     "new_posts": []
@@ -36,7 +36,7 @@
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
       "title_rank": 1,
-      "keyword_rank": 12,
+      "keyword_rank": 13,
       "change": "stable"
     },
     {
@@ -132,7 +132,7 @@
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
       "title_rank": 1,
-      "keyword_rank": 15,
+      "keyword_rank": 14,
       "change": "stable"
     },
     {
@@ -300,7 +300,7 @@
       "link": "https://blog.naver.com/giant7000/224156183946?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
       "title_rank": 1,
-      "keyword_rank": 42,
+      "keyword_rank": 43,
       "change": "stable"
     },
     {
@@ -324,7 +324,7 @@
       "link": "https://blog.naver.com/giant7000/224148314588?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 32,
+      "keyword_rank": 31,
       "change": "stable"
     },
     {
@@ -356,7 +356,7 @@
       "link": "https://blog.naver.com/giant7000/224125487555?fromRss=true&trackingCode=rss",
       "keyword": "반응형 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 22,
+      "keyword_rank": 21,
       "change": "stable"
     },
     {
@@ -388,7 +388,7 @@
       "link": "https://blog.naver.com/giant7000/224109605947?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 운영",
       "title_rank": 1,
-      "keyword_rank": 22,
+      "keyword_rank": 21,
       "change": "stable"
     },
     {
@@ -412,7 +412,7 @@
       "link": "https://blog.naver.com/giant7000/224101602040?fromRss=true&trackingCode=rss",
       "keyword": "관리하기 쉬운",
       "title_rank": 1,
-      "keyword_rank": 45,
+      "keyword_rank": 44,
       "change": "stable"
     }
   ]
