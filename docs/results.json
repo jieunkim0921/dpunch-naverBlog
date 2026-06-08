@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-06-01 13:06 KST",
+  "checked_at": "2026-06-08 13:02 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,12 +9,65 @@
     "title_missing": 0
   },
   "changes": {
-    "compared_to": "2026-05-31 22:54 KST",
+    "compared_to": "2026-06-01 13:06 KST",
     "dropped": [],
     "exposed_now": [],
-    "new_posts": []
+    "new_posts": [
+      {
+        "title": "홈페이지 제작 업체 어떤 기준으로 선정해야 할까",
+        "link": "https://blog.naver.com/giant7000/224306494623?fromRss=true&trackingCode=rss",
+        "keyword": "홈페이지 제작"
+      },
+      {
+        "title": "병원 홈페이지 제작 놓치기 쉬운 환자 관점은?",
+        "link": "https://blog.naver.com/giant7000/224305452348?fromRss=true&trackingCode=rss",
+        "keyword": "병원 홈페이지"
+      },
+      {
+        "title": "협회 홈페이지제작 운영까지 고려해야 하는 이유",
+        "link": "https://blog.naver.com/giant7000/224303591211?fromRss=true&trackingCode=rss",
+        "keyword": "협회 홈페이지제작"
+      },
+      {
+        "title": "학원 홈페이지 제작 사례 셜리 영어학원",
+        "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
+        "keyword": "학원 홈페이지"
+      }
+    ]
   },
   "posts": [
+    {
+      "title": "홈페이지 제작 업체 어떤 기준으로 선정해야 할까",
+      "link": "https://blog.naver.com/giant7000/224306494623?fromRss=true&trackingCode=rss",
+      "keyword": "홈페이지 제작",
+      "title_rank": 1,
+      "keyword_rank": 26,
+      "change": "new_post"
+    },
+    {
+      "title": "병원 홈페이지 제작 놓치기 쉬운 환자 관점은?",
+      "link": "https://blog.naver.com/giant7000/224305452348?fromRss=true&trackingCode=rss",
+      "keyword": "병원 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 45,
+      "change": "new_post"
+    },
+    {
+      "title": "협회 홈페이지제작 운영까지 고려해야 하는 이유",
+      "link": "https://blog.naver.com/giant7000/224303591211?fromRss=true&trackingCode=rss",
+      "keyword": "협회 홈페이지제작",
+      "title_rank": 1,
+      "keyword_rank": 1,
+      "change": "new_post"
+    },
+    {
+      "title": "학원 홈페이지 제작 사례 셜리 영어학원",
+      "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
+      "keyword": "학원 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 11,
+      "change": "new_post"
+    },
     {
       "title": "대학교홈페이지제작 운영까지 고려해야 하는 이유",
       "link": "https://blog.naver.com/giant7000/224296343060?fromRss=true&trackingCode=rss",
@@ -36,7 +89,7 @@
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
       "title_rank": 1,
-      "keyword_rank": 13,
+      "keyword_rank": 17,
       "change": "stable"
     },
     {
@@ -52,7 +105,7 @@
       "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
       "keyword": "병원홈페이지제작 사례",
       "title_rank": 1,
-      "keyword_rank": 6,
+      "keyword_rank": 8,
       "change": "stable"
     },
     {
@@ -68,7 +121,7 @@
       "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
       "keyword": "에이전시 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 1,
+      "keyword_rank": 2,
       "change": "stable"
     },
     {
@@ -92,7 +145,7 @@
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
       "title_rank": 1,
-      "keyword_rank": 74,
+      "keyword_rank": 75,
       "change": "stable"
     },
     {
@@ -132,7 +185,7 @@
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
       "title_rank": 1,
-      "keyword_rank": 14,
+      "keyword_rank": 16,
       "change": "stable"
     },
     {
@@ -140,7 +193,7 @@
       "link": "https://blog.naver.com/giant7000/224241046481?fromRss=true&trackingCode=rss",
       "keyword": "미술관 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 5,
+      "keyword_rank": 6,
       "change": "stable"
     },
     {
@@ -164,7 +217,7 @@
       "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 72,
+      "keyword_rank": 73,
       "change": "stable"
     },
     {
@@ -180,7 +233,7 @@
       "link": "https://blog.naver.com/giant7000/224209381095?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 유지보수란",
       "title_rank": 1,
-      "keyword_rank": 3,
+      "keyword_rank": 4,
       "change": "stable"
     },
     {
@@ -252,7 +305,7 @@
       "link": "https://blog.naver.com/giant7000/224176205722?fromRss=true&trackingCode=rss",
       "keyword": "한방병원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 13,
+      "keyword_rank": 1,
       "change": "stable"
     },
     {
@@ -260,7 +313,7 @@
       "link": "https://blog.naver.com/giant7000/224174350317?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 54,
+      "keyword_rank": 53,
       "change": "stable"
     },
     {
@@ -276,7 +329,7 @@
       "link": "https://blog.naver.com/giant7000/224167535441?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 도메인",
       "title_rank": 1,
-      "keyword_rank": 18,
+      "keyword_rank": 17,
       "change": "stable"
     },
     {
@@ -324,7 +377,7 @@
       "link": "https://blog.naver.com/giant7000/224148314588?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 31,
+      "keyword_rank": 34,
       "change": "stable"
     },
     {
@@ -381,38 +434,6 @@
       "keyword": "바이오 홈페이지",
       "title_rank": 1,
       "keyword_rank": 2,
-      "change": "stable"
-    },
-    {
-      "title": "카페24 쇼핑몰 운영 중 유지보수 기준은 이렇게 잡으세요",
-      "link": "https://blog.naver.com/giant7000/224109605947?fromRss=true&trackingCode=rss",
-      "keyword": "쇼핑몰 운영",
-      "title_rank": 1,
-      "keyword_rank": 21,
-      "change": "stable"
-    },
-    {
-      "title": "홈페이지리뉴얼 디자인보다 먼저 고민해야 할 요소는?",
-      "link": "https://blog.naver.com/giant7000/224106334982?fromRss=true&trackingCode=rss",
-      "keyword": "홈페이지리뉴얼 디자인",
-      "title_rank": 1,
-      "keyword_rank": 3,
-      "change": "stable"
-    },
-    {
-      "title": "예산 맞춰 진행하는 제조업홈페이지제작 방법",
-      "link": "https://blog.naver.com/giant7000/224105345473?fromRss=true&trackingCode=rss",
-      "keyword": "예산 맞춰",
-      "title_rank": 1,
-      "keyword_rank": 10,
-      "change": "stable"
-    },
-    {
-      "title": "관리하기 쉬운 학회홈페이지제작 기준 3가지",
-      "link": "https://blog.naver.com/giant7000/224101602040?fromRss=true&trackingCode=rss",
-      "keyword": "관리하기 쉬운",
-      "title_rank": 1,
-      "keyword_rank": 44,
       "change": "stable"
     }
   ]
