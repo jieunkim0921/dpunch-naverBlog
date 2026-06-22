@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-06-15 13:19 KST",
+  "checked_at": "2026-06-22 13:16 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,61 +9,75 @@
     "title_missing": 0
   },
   "changes": {
-    "compared_to": "2026-06-08 13:02 KST",
+    "compared_to": "2026-06-15 13:19 KST",
     "dropped": [],
     "exposed_now": [],
     "new_posts": [
       {
-        "title": "AEO 시대의 홈페이지 제작 무엇이 달라져야 할까",
-        "link": "https://blog.naver.com/giant7000/224312255413?fromRss=true&trackingCode=rss",
-        "keyword": "AEO 시대"
+        "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
+        "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
+        "keyword": "치과 홈페이지"
       },
       {
-        "title": "기업 홈페이지 제작 꼭 필요한 페이지 구성 6가지",
-        "link": "https://blog.naver.com/giant7000/224312224943?fromRss=true&trackingCode=rss",
-        "keyword": "기업 홈페이지"
+        "title": "AI 홈페이지 제작 단점 3가지, 직접 써보고 알게 된 현실",
+        "link": "https://blog.naver.com/giant7000/224319026767?fromRss=true&trackingCode=rss",
+        "keyword": "AI 홈페이지"
       },
       {
-        "title": "랜딩페이지 제작 비용 낭비 줄이는 체크포인트",
-        "link": "https://blog.naver.com/giant7000/224311385015?fromRss=true&trackingCode=rss",
-        "keyword": "랜딩페이지 제작"
-      },
-      {
-        "title": "교회 홈페이지제작 꼭 필요한 구성 요소는?",
-        "link": "https://blog.naver.com/giant7000/224310279814?fromRss=true&trackingCode=rss",
-        "keyword": "교회 홈페이지제작"
-      },
-      {
-        "title": "수출바우처 홈페이지 제작 업체 선택 전 준비사항 3가지",
-        "link": "https://blog.naver.com/giant7000/224309768493?fromRss=true&trackingCode=rss",
-        "keyword": "수출바우처 홈페이지"
+        "title": "법무사 홈페이지 제작, 업체 고르기 전 확인할 것",
+        "link": "https://blog.naver.com/giant7000/224316705446?fromRss=true&trackingCode=rss",
+        "keyword": "법무사 홈페이지"
       }
     ]
   },
   "posts": [
     {
+      "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
+      "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
+      "keyword": "치과 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 1,
+      "change": "new_post"
+    },
+    {
+      "title": "AI 홈페이지 제작 단점 3가지, 직접 써보고 알게 된 현실",
+      "link": "https://blog.naver.com/giant7000/224319026767?fromRss=true&trackingCode=rss",
+      "keyword": "AI 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 15,
+      "change": "new_post"
+    },
+    {
+      "title": "법무사 홈페이지 제작, 업체 고르기 전 확인할 것",
+      "link": "https://blog.naver.com/giant7000/224316705446?fromRss=true&trackingCode=rss",
+      "keyword": "법무사 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 1,
+      "change": "new_post"
+    },
+    {
       "title": "AEO 시대의 홈페이지 제작 무엇이 달라져야 할까",
       "link": "https://blog.naver.com/giant7000/224312255413?fromRss=true&trackingCode=rss",
       "keyword": "AEO 시대",
       "title_rank": 1,
-      "keyword_rank": 2,
-      "change": "new_post"
+      "keyword_rank": 3,
+      "change": "stable"
     },
     {
       "title": "기업 홈페이지 제작 꼭 필요한 페이지 구성 6가지",
       "link": "https://blog.naver.com/giant7000/224312224943?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 43,
-      "change": "new_post"
+      "keyword_rank": 46,
+      "change": "stable"
     },
     {
       "title": "랜딩페이지 제작 비용 낭비 줄이는 체크포인트",
       "link": "https://blog.naver.com/giant7000/224311385015?fromRss=true&trackingCode=rss",
       "keyword": "랜딩페이지 제작",
       "title_rank": 1,
-      "keyword_rank": 12,
-      "change": "new_post"
+      "keyword_rank": 13,
+      "change": "stable"
     },
     {
       "title": "교회 홈페이지제작 꼭 필요한 구성 요소는?",
@@ -71,7 +85,7 @@
       "keyword": "교회 홈페이지제작",
       "title_rank": 1,
       "keyword_rank": 4,
-      "change": "new_post"
+      "change": "stable"
     },
     {
       "title": "수출바우처 홈페이지 제작 업체 선택 전 준비사항 3가지",
@@ -79,14 +93,14 @@
       "keyword": "수출바우처 홈페이지",
       "title_rank": 1,
       "keyword_rank": 1,
-      "change": "new_post"
+      "change": "stable"
     },
     {
       "title": "홈페이지 제작 업체 어떤 기준으로 선정해야 할까",
       "link": "https://blog.naver.com/giant7000/224306494623?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 제작",
       "title_rank": 1,
-      "keyword_rank": 51,
+      "keyword_rank": 62,
       "change": "stable"
     },
     {
@@ -94,7 +108,7 @@
       "link": "https://blog.naver.com/giant7000/224305452348?fromRss=true&trackingCode=rss",
       "keyword": "병원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 60,
+      "keyword_rank": 73,
       "change": "stable"
     },
     {
@@ -110,7 +124,7 @@
       "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
       "keyword": "학원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 11,
+      "keyword_rank": 12,
       "change": "stable"
     },
     {
@@ -134,7 +148,7 @@
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
       "title_rank": 1,
-      "keyword_rank": 19,
+      "keyword_rank": 22,
       "change": "stable"
     },
     {
@@ -190,7 +204,7 @@
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
       "title_rank": 1,
-      "keyword_rank": 74,
+      "keyword_rank": 73,
       "change": "stable"
     },
     {
@@ -230,7 +244,7 @@
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
       "title_rank": 1,
-      "keyword_rank": 18,
+      "keyword_rank": 19,
       "change": "stable"
     },
     {
@@ -238,7 +252,7 @@
       "link": "https://blog.naver.com/giant7000/224241046481?fromRss=true&trackingCode=rss",
       "keyword": "미술관 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 9,
+      "keyword_rank": 11,
       "change": "stable"
     },
     {
@@ -254,7 +268,7 @@
       "link": "https://blog.naver.com/giant7000/224226291950?fromRss=true&trackingCode=rss",
       "keyword": "제조 기업",
       "title_rank": 1,
-      "keyword_rank": 67,
+      "keyword_rank": 66,
       "change": "stable"
     },
     {
@@ -262,7 +276,7 @@
       "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 77,
+      "keyword_rank": 75,
       "change": "stable"
     },
     {
@@ -270,7 +284,7 @@
       "link": "https://blog.naver.com/giant7000/224217075998?fromRss=true&trackingCode=rss",
       "keyword": "피부미용 레이저",
       "title_rank": 1,
-      "keyword_rank": 1,
+      "keyword_rank": 2,
       "change": "stable"
     },
     {
@@ -358,7 +372,7 @@
       "link": "https://blog.naver.com/giant7000/224174350317?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 59,
+      "keyword_rank": 64,
       "change": "stable"
     },
     {
@@ -374,7 +388,7 @@
       "link": "https://blog.naver.com/giant7000/224167535441?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 도메인",
       "title_rank": 1,
-      "keyword_rank": 18,
+      "keyword_rank": 17,
       "change": "stable"
     },
     {
@@ -398,7 +412,7 @@
       "link": "https://blog.naver.com/giant7000/224156183946?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
       "title_rank": 1,
-      "keyword_rank": 42,
+      "keyword_rank": 46,
       "change": "stable"
     },
     {
@@ -415,30 +429,6 @@
       "keyword": "홈페이지 제작",
       "title_rank": 1,
       "keyword_rank": null,
-      "change": "stable"
-    },
-    {
-      "title": "기업 홈페이지 리뉴얼 망하는 경우엔 공통점이 있다",
-      "link": "https://blog.naver.com/giant7000/224148314588?fromRss=true&trackingCode=rss",
-      "keyword": "기업 홈페이지",
-      "title_rank": 1,
-      "keyword_rank": null,
-      "change": "stable"
-    },
-    {
-      "title": "중소기업 홈페이지제작 성과로 이어지는 사이트 구성",
-      "link": "https://blog.naver.com/giant7000/224141613758?fromRss=true&trackingCode=rss",
-      "keyword": "중소기업 홈페이지제작",
-      "title_rank": 1,
-      "keyword_rank": 61,
-      "change": "stable"
-    },
-    {
-      "title": "제조 기업 홈페이지 한국알박 제작 사례",
-      "link": "https://blog.naver.com/giant7000/224141613469?fromRss=true&trackingCode=rss",
-      "keyword": "제조 기업",
-      "title_rank": 1,
-      "keyword_rank": 77,
       "change": "stable"
     }
   ]
