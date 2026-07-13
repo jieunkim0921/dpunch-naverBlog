@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-07-06 12:33 KST",
+  "checked_at": "2026-07-13 11:46 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,30 +9,33 @@
     "title_missing": 0
   },
   "changes": {
-    "compared_to": "2026-06-29 12:57 KST",
+    "compared_to": "2026-07-06 12:33 KST",
     "dropped": [],
     "exposed_now": [],
     "new_posts": [
       {
-        "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
-        "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
-        "keyword": "GEO 대행사"
-      },
-      {
-        "title": "학회·협회 홈페이지 제작, 일반 기업 사이트와 달라야 하는 이유",
-        "link": "https://blog.naver.com/giant7000/224331885180?fromRss=true&trackingCode=rss",
-        "keyword": "학회 협회"
+        "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
+        "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
+        "keyword": "오픈마켓 탈출"
       }
     ]
   },
   "posts": [
+    {
+      "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
+      "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
+      "keyword": "오픈마켓 탈출",
+      "title_rank": 1,
+      "keyword_rank": 1,
+      "change": "new_post"
+    },
     {
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
       "title_rank": 1,
       "keyword_rank": 1,
-      "change": "new_post"
+      "change": "stable"
     },
     {
       "title": "학회·협회 홈페이지 제작, 일반 기업 사이트와 달라야 하는 이유",
@@ -40,7 +43,7 @@
       "keyword": "학회 협회",
       "title_rank": 1,
       "keyword_rank": 1,
-      "change": "new_post"
+      "change": "stable"
     },
     {
       "title": "여행사 홈페이지 제작, 예약이 느는 구조의 조건",
@@ -55,7 +58,7 @@
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
       "title_rank": 1,
-      "keyword_rank": 26,
+      "keyword_rank": 30,
       "change": "stable"
     },
     {
@@ -71,7 +74,7 @@
       "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
       "keyword": "치과 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 2,
+      "keyword_rank": 16,
       "change": "stable"
     },
     {
@@ -79,7 +82,7 @@
       "link": "https://blog.naver.com/giant7000/224319026767?fromRss=true&trackingCode=rss",
       "keyword": "AI 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 18,
+      "keyword_rank": 22,
       "change": "stable"
     },
     {
@@ -95,7 +98,7 @@
       "link": "https://blog.naver.com/giant7000/224312255413?fromRss=true&trackingCode=rss",
       "keyword": "AEO 시대",
       "title_rank": 1,
-      "keyword_rank": 4,
+      "keyword_rank": null,
       "change": "stable"
     },
     {
@@ -103,7 +106,7 @@
       "link": "https://blog.naver.com/giant7000/224312224943?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 53,
+      "keyword_rank": 50,
       "change": "stable"
     },
     {
@@ -135,7 +138,7 @@
       "link": "https://blog.naver.com/giant7000/224306494623?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 제작",
       "title_rank": 1,
-      "keyword_rank": 62,
+      "keyword_rank": 61,
       "change": "stable"
     },
     {
@@ -143,7 +146,7 @@
       "link": "https://blog.naver.com/giant7000/224305452348?fromRss=true&trackingCode=rss",
       "keyword": "병원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 74,
+      "keyword_rank": 75,
       "change": "stable"
     },
     {
@@ -159,7 +162,7 @@
       "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
       "keyword": "학원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 20,
+      "keyword_rank": 19,
       "change": "stable"
     },
     {
@@ -183,7 +186,7 @@
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
       "title_rank": 1,
-      "keyword_rank": 23,
+      "keyword_rank": 22,
       "change": "stable"
     },
     {
@@ -199,7 +202,7 @@
       "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
       "keyword": "병원홈페이지제작 사례",
       "title_rank": 1,
-      "keyword_rank": 7,
+      "keyword_rank": 6,
       "change": "stable"
     },
     {
@@ -215,7 +218,7 @@
       "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
       "keyword": "에이전시 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 2,
+      "keyword_rank": 3,
       "change": "stable"
     },
     {
@@ -239,7 +242,7 @@
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
       "title_rank": 1,
-      "keyword_rank": 57,
+      "keyword_rank": 59,
       "change": "stable"
     },
     {
@@ -279,7 +282,7 @@
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
       "title_rank": 1,
-      "keyword_rank": 19,
+      "keyword_rank": 17,
       "change": "stable"
     },
     {
@@ -303,7 +306,7 @@
       "link": "https://blog.naver.com/giant7000/224226291950?fromRss=true&trackingCode=rss",
       "keyword": "제조 기업",
       "title_rank": 1,
-      "keyword_rank": 70,
+      "keyword_rank": 72,
       "change": "stable"
     },
     {
@@ -311,7 +314,7 @@
       "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 75,
+      "keyword_rank": 73,
       "change": "stable"
     },
     {
@@ -327,7 +330,7 @@
       "link": "https://blog.naver.com/giant7000/224209381095?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 유지보수란",
       "title_rank": 1,
-      "keyword_rank": 3,
+      "keyword_rank": 2,
       "change": "stable"
     },
     {
@@ -415,15 +418,7 @@
       "link": "https://blog.naver.com/giant7000/224167733839?fromRss=true&trackingCode=rss",
       "keyword": "무료홈페이지제작 이런",
       "title_rank": 1,
-      "keyword_rank": 2,
-      "change": "stable"
-    },
-    {
-      "title": "홈페이지 도메인 vs 호스팅 뭐가 다른가요?",
-      "link": "https://blog.naver.com/giant7000/224167535441?fromRss=true&trackingCode=rss",
-      "keyword": "홈페이지 도메인",
-      "title_rank": 1,
-      "keyword_rank": 17,
+      "keyword_rank": 3,
       "change": "stable"
     }
   ]
