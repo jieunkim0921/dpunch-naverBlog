@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-07-13 11:46 KST",
+  "checked_at": "2026-07-20 12:27 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,25 +9,46 @@
     "title_missing": 0
   },
   "changes": {
-    "compared_to": "2026-07-06 12:33 KST",
+    "compared_to": "2026-07-13 11:46 KST",
     "dropped": [],
     "exposed_now": [],
     "new_posts": [
       {
-        "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
-        "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
-        "keyword": "오픈마켓 탈출"
+        "title": "수출바우처 홈페이지 제작, 예산 안에서 성과 내는 3가지 조건",
+        "link": "https://blog.naver.com/giant7000/224348570253?fromRss=true&trackingCode=rss",
+        "keyword": "수출바우처 홈페이지"
+      },
+      {
+        "title": "스타트업 랜딩페이지 제작, 첫 화면에서 전환율 가르는 3가지",
+        "link": "https://blog.naver.com/giant7000/224345304009?fromRss=true&trackingCode=rss",
+        "keyword": "스타트업 랜딩페이지"
       }
     ]
   },
   "posts": [
+    {
+      "title": "수출바우처 홈페이지 제작, 예산 안에서 성과 내는 3가지 조건",
+      "link": "https://blog.naver.com/giant7000/224348570253?fromRss=true&trackingCode=rss",
+      "keyword": "수출바우처 홈페이지",
+      "title_rank": 1,
+      "keyword_rank": 2,
+      "change": "new_post"
+    },
+    {
+      "title": "스타트업 랜딩페이지 제작, 첫 화면에서 전환율 가르는 3가지",
+      "link": "https://blog.naver.com/giant7000/224345304009?fromRss=true&trackingCode=rss",
+      "keyword": "스타트업 랜딩페이지",
+      "title_rank": 1,
+      "keyword_rank": 1,
+      "change": "new_post"
+    },
     {
       "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
       "keyword": "오픈마켓 탈출",
       "title_rank": 1,
       "keyword_rank": 1,
-      "change": "new_post"
+      "change": "stable"
     },
     {
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
@@ -58,7 +79,7 @@
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
       "title_rank": 1,
-      "keyword_rank": 30,
+      "keyword_rank": 37,
       "change": "stable"
     },
     {
@@ -106,7 +127,7 @@
       "link": "https://blog.naver.com/giant7000/224312224943?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 50,
+      "keyword_rank": 52,
       "change": "stable"
     },
     {
@@ -114,7 +135,7 @@
       "link": "https://blog.naver.com/giant7000/224311385015?fromRss=true&trackingCode=rss",
       "keyword": "랜딩페이지 제작",
       "title_rank": 1,
-      "keyword_rank": 23,
+      "keyword_rank": 25,
       "change": "stable"
     },
     {
@@ -122,7 +143,7 @@
       "link": "https://blog.naver.com/giant7000/224310279814?fromRss=true&trackingCode=rss",
       "keyword": "교회 홈페이지제작",
       "title_rank": 1,
-      "keyword_rank": 4,
+      "keyword_rank": 6,
       "change": "stable"
     },
     {
@@ -130,7 +151,7 @@
       "link": "https://blog.naver.com/giant7000/224309768493?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 1,
+      "keyword_rank": 14,
       "change": "stable"
     },
     {
@@ -138,7 +159,7 @@
       "link": "https://blog.naver.com/giant7000/224306494623?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 제작",
       "title_rank": 1,
-      "keyword_rank": 61,
+      "keyword_rank": null,
       "change": "stable"
     },
     {
@@ -146,7 +167,7 @@
       "link": "https://blog.naver.com/giant7000/224305452348?fromRss=true&trackingCode=rss",
       "keyword": "병원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 75,
+      "keyword_rank": 78,
       "change": "stable"
     },
     {
@@ -162,7 +183,7 @@
       "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
       "keyword": "학원 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 19,
+      "keyword_rank": 21,
       "change": "stable"
     },
     {
@@ -186,7 +207,7 @@
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
       "title_rank": 1,
-      "keyword_rank": 22,
+      "keyword_rank": 23,
       "change": "stable"
     },
     {
@@ -218,7 +239,7 @@
       "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
       "keyword": "에이전시 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 3,
+      "keyword_rank": 2,
       "change": "stable"
     },
     {
@@ -242,7 +263,7 @@
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
       "title_rank": 1,
-      "keyword_rank": 59,
+      "keyword_rank": 70,
       "change": "stable"
     },
     {
@@ -298,7 +319,7 @@
       "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
       "keyword": "공공기관 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 3,
+      "keyword_rank": 5,
       "change": "stable"
     },
     {
@@ -306,7 +327,7 @@
       "link": "https://blog.naver.com/giant7000/224226291950?fromRss=true&trackingCode=rss",
       "keyword": "제조 기업",
       "title_rank": 1,
-      "keyword_rank": 72,
+      "keyword_rank": 69,
       "change": "stable"
     },
     {
@@ -314,7 +335,7 @@
       "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 73,
+      "keyword_rank": 74,
       "change": "stable"
     },
     {
@@ -330,7 +351,7 @@
       "link": "https://blog.naver.com/giant7000/224209381095?fromRss=true&trackingCode=rss",
       "keyword": "홈페이지 유지보수란",
       "title_rank": 1,
-      "keyword_rank": 2,
+      "keyword_rank": 4,
       "change": "stable"
     },
     {
@@ -346,7 +367,7 @@
       "link": "https://blog.naver.com/giant7000/224201444093?fromRss=true&trackingCode=rss",
       "keyword": "맞춤형 홈페이지",
       "title_rank": 1,
-      "keyword_rank": 37,
+      "keyword_rank": 38,
       "change": "stable"
     },
     {
@@ -370,7 +391,7 @@
       "link": "https://blog.naver.com/giant7000/224191977977?fromRss=true&trackingCode=rss",
       "keyword": "프랜차이즈홈페이지제작 업체",
       "title_rank": 1,
-      "keyword_rank": 1,
+      "keyword_rank": 2,
       "change": "stable"
     },
     {
@@ -403,22 +424,6 @@
       "keyword": "한방병원 홈페이지",
       "title_rank": 1,
       "keyword_rank": 1,
-      "change": "stable"
-    },
-    {
-      "title": "기업 홈페이지 기획없이 제작하면 생기는 상황",
-      "link": "https://blog.naver.com/giant7000/224174350317?fromRss=true&trackingCode=rss",
-      "keyword": "기업 홈페이지",
-      "title_rank": 1,
-      "keyword_rank": 64,
-      "change": "stable"
-    },
-    {
-      "title": "무료홈페이지제작 이런 경우엔 피하세요",
-      "link": "https://blog.naver.com/giant7000/224167733839?fromRss=true&trackingCode=rss",
-      "keyword": "무료홈페이지제작 이런",
-      "title_rank": 1,
-      "keyword_rank": 3,
       "change": "stable"
     }
   ]
