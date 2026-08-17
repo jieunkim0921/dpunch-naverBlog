@@ -83,6 +83,13 @@
       "total": 50,
       "exposed": 26,
       "missing": 24
+    },
+    {
+      "date": "2026-08-17",
+      "checked_at": "2026-08-17 10:15 KST",
+      "total": 50,
+      "exposed": 26,
+      "missing": 24
     }
   ]
 }
