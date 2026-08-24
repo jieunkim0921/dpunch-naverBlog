@@ -1,35 +1,24 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-08-17 10:15 KST",
+  "checked_at": "2026-08-24 10:16 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
-    "title_exposed": 26,
-    "title_missing": 24
+    "title_exposed": 27,
+    "title_missing": 23
   },
   "changes": {
-    "compared_to": "2026-08-10 10:46 KST",
-    "dropped": [
+    "compared_to": "2026-08-17 10:15 KST",
+    "dropped": [],
+    "exposed_now": [
       {
         "title": "병원홈페이지제작 사례 다나음 한방병원",
         "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
         "keyword": "병원홈페이지제작 사례"
       }
     ],
-    "exposed_now": [],
-    "new_posts": [
-      {
-        "title": "굿즈·MD 상품 기획 홈페이지 제작 사례 | 다국어 기업 사이트",
-        "link": "https://blog.naver.com/giant7000/224376277079?fromRss=true&trackingCode=rss",
-        "keyword": "굿즈 MD"
-      },
-      {
-        "title": "애견호텔 창업 준비, 홈페이지부터 만들어야 하는 이유",
-        "link": "https://blog.naver.com/giant7000/224375365545?fromRss=true&trackingCode=rss",
-        "keyword": "애견호텔 창업"
-      }
-    ]
+    "new_posts": []
   },
   "posts": [
     {
@@ -38,15 +27,15 @@
       "keyword": "굿즈 MD",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "new_post"
+      "change": "still_missing"
     },
     {
       "title": "애견호텔 창업 준비, 홈페이지부터 만들어야 하는 이유",
       "link": "https://blog.naver.com/giant7000/224375365545?fromRss=true&trackingCode=rss",
       "keyword": "애견호텔 창업",
-      "title_rank": 1,
-      "keyword_rank": 8,
-      "change": "new_post"
+      "title_rank": 5,
+      "keyword_rank": null,
+      "change": "stable"
     },
     {
       "title": "제조업 홈페이지 제작 사례 | 신뢰 증명형 B2B 설계",
@@ -100,7 +89,7 @@
       "title": "수출바우처 홈페이지 제작, 예산 안에서 성과 내는 3가지 조건",
       "link": "https://blog.naver.com/giant7000/224348570253?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 홈페이지",
-      "title_rank": 14,
+      "title_rank": 12,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -109,14 +98,14 @@
       "link": "https://blog.naver.com/giant7000/224345304009?fromRss=true&trackingCode=rss",
       "keyword": "스타트업 랜딩페이지",
       "title_rank": 2,
-      "keyword_rank": null,
+      "keyword_rank": 26,
       "change": "stable"
     },
     {
       "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
       "keyword": "오픈마켓 탈출",
-      "title_rank": 34,
+      "title_rank": 40,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -124,8 +113,8 @@
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 9,
-      "keyword_rank": 66,
+      "title_rank": 11,
+      "keyword_rank": 63,
       "change": "stable"
     },
     {
@@ -148,7 +137,7 @@
       "title": "B2B 쇼핑몰 제작, 고도몰 말고 커스텀 개발이 필요한 경우",
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
-      "title_rank": 5,
+      "title_rank": 7,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -156,8 +145,8 @@
       "title": "수출바우처 영문 홈페이지 제작, 번역만 하면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224324481289?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 영문",
-      "title_rank": 17,
-      "keyword_rank": null,
+      "title_rank": 14,
+      "keyword_rank": 87,
       "change": "stable"
     },
     {
@@ -180,7 +169,7 @@
       "title": "법무사 홈페이지 제작, 업체 고르기 전 확인할 것",
       "link": "https://blog.naver.com/giant7000/224316705446?fromRss=true&trackingCode=rss",
       "keyword": "법무사 홈페이지",
-      "title_rank": 97,
+      "title_rank": 98,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -204,7 +193,7 @@
       "title": "랜딩페이지 제작 비용 낭비 줄이는 체크포인트",
       "link": "https://blog.naver.com/giant7000/224311385015?fromRss=true&trackingCode=rss",
       "keyword": "랜딩페이지 제작",
-      "title_rank": 11,
+      "title_rank": 12,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -220,7 +209,7 @@
       "title": "수출바우처 홈페이지 제작 업체 선택 전 준비사항 3가지",
       "link": "https://blog.naver.com/giant7000/224309768493?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 홈페이지",
-      "title_rank": 35,
+      "title_rank": 29,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -276,7 +265,7 @@
       "title": "디지털 에이전시, 디자인펀치를 소개합니다.",
       "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
       "keyword": "디지털 에이전시",
-      "title_rank": 66,
+      "title_rank": 51,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -284,7 +273,7 @@
       "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
       "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 업체",
-      "title_rank": 34,
+      "title_rank": 33,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -292,9 +281,9 @@
       "title": "병원홈페이지제작 사례 다나음 한방병원",
       "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
       "keyword": "병원홈페이지제작 사례",
-      "title_rank": null,
+      "title_rank": 48,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "exposed_now"
     },
     {
       "title": "맞춤형홈페이지제작 꼭 필요한 회사가 따로 있습니다",
@@ -308,7 +297,7 @@
       "title": "에이전시 홈페이지 제작 사례 비주얼 디렉터스",
       "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
       "keyword": "에이전시 홈페이지",
-      "title_rank": 2,
+      "title_rank": 1,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -324,7 +313,7 @@
       "title": "2026 관광바우처 수행기관 (주)디자인펀치",
       "link": "https://blog.naver.com/giant7000/224269957856?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 수행기관",
-      "title_rank": 3,
+      "title_rank": 2,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -332,7 +321,7 @@
       "title": "뷰티 브랜드 쇼핑몰 제작 사례 플라링크",
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
-      "title_rank": 16,
+      "title_rank": 17,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -348,7 +337,7 @@
       "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
       "keyword": "다국어홈페이지제작 단순",
-      "title_rank": 13,
+      "title_rank": 17,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -372,7 +361,7 @@
       "title": "의료기기 제조업 영문 홈페이지 제작 사례 테바코리아",
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
-      "title_rank": 10,
+      "title_rank": 9,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -388,7 +377,7 @@
       "title": "공공기관 홈페이지 제작 사례 굿윌스토어",
       "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
       "keyword": "공공기관 홈페이지",
-      "title_rank": 18,
+      "title_rank": 19,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -428,7 +417,7 @@
       "title": "AI 교육 홈페이지 STEAM융합교육센터 제작 사례",
       "link": "https://blog.naver.com/giant7000/224208849396?fromRss=true&trackingCode=rss",
       "keyword": "AI 교육",
-      "title_rank": 11,
+      "title_rank": 13,
       "keyword_rank": null,
       "change": "stable"
     }
