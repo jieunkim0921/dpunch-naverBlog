@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-08-31 12:58 KST",
+  "checked_at": "2026-09-07 12:10 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,57 +9,10 @@
     "title_missing": 32
   },
   "changes": {
-    "compared_to": "2026-08-24 10:16 KST",
-    "dropped": [
-      {
-        "title": "애견호텔 창업 준비, 홈페이지부터 만들어야 하는 이유",
-        "link": "https://blog.naver.com/giant7000/224375365545?fromRss=true&trackingCode=rss",
-        "keyword": "애견호텔 창업"
-      },
-      {
-        "title": "수출바우처 홈페이지 제작, 예산 안에서 성과 내는 3가지 조건",
-        "link": "https://blog.naver.com/giant7000/224348570253?fromRss=true&trackingCode=rss",
-        "keyword": "수출바우처 홈페이지"
-      },
-      {
-        "title": "오픈마켓 탈출, 자사몰 제작 기준 3가지",
-        "link": "https://blog.naver.com/giant7000/224340510441?fromRss=true&trackingCode=rss",
-        "keyword": "오픈마켓 탈출"
-      },
-      {
-        "title": "법무사 홈페이지 제작, 업체 고르기 전 확인할 것",
-        "link": "https://blog.naver.com/giant7000/224316705446?fromRss=true&trackingCode=rss",
-        "keyword": "법무사 홈페이지"
-      },
-      {
-        "title": "랜딩페이지 제작 비용 낭비 줄이는 체크포인트",
-        "link": "https://blog.naver.com/giant7000/224311385015?fromRss=true&trackingCode=rss",
-        "keyword": "랜딩페이지 제작"
-      },
-      {
-        "title": "수출바우처 홈페이지 제작 업체 선택 전 준비사항 3가지",
-        "link": "https://blog.naver.com/giant7000/224309768493?fromRss=true&trackingCode=rss",
-        "keyword": "수출바우처 홈페이지"
-      },
-      {
-        "title": "디지털 에이전시, 디자인펀치를 소개합니다.",
-        "link": "https://blog.naver.com/giant7000/224288428193?fromRss=true&trackingCode=rss",
-        "keyword": "디지털 에이전시"
-      },
-      {
-        "title": "병원홈페이지제작 사례 다나음 한방병원",
-        "link": "https://blog.naver.com/giant7000/224281644953?fromRss=true&trackingCode=rss",
-        "keyword": "병원홈페이지제작 사례"
-      }
-    ],
+    "compared_to": "2026-08-31 12:58 KST",
+    "dropped": [],
     "exposed_now": [],
-    "new_posts": [
-      {
-        "title": "수출바우처 수행기관, 홈페이지 제작이라면 뭘 봐야 할까",
-        "link": "https://blog.naver.com/giant7000/224389729915?fromRss=true&trackingCode=rss",
-        "keyword": "수출바우처 수행기관"
-      }
-    ]
+    "new_posts": []
   },
   "posts": [
     {
@@ -68,7 +21,7 @@
       "keyword": "수출바우처 수행기관",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "new_post"
+      "change": "still_missing"
     },
     {
       "title": "굿즈·MD 상품 기획 홈페이지 제작 사례 | 다국어 기업 사이트",
@@ -84,7 +37,7 @@
       "keyword": "애견호텔 창업",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "제조업 홈페이지 제작 사례 | 신뢰 증명형 B2B 설계",
@@ -140,7 +93,7 @@
       "keyword": "수출바우처 홈페이지",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "스타트업 랜딩페이지 제작, 첫 화면에서 전환율 가르는 3가지",
@@ -156,13 +109,13 @@
       "keyword": "오픈마켓 탈출",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 73,
+      "title_rank": 75,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -186,7 +139,7 @@
       "title": "B2B 쇼핑몰 제작, 고도몰 말고 커스텀 개발이 필요한 경우",
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
-      "title_rank": 30,
+      "title_rank": 33,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -194,7 +147,7 @@
       "title": "수출바우처 영문 홈페이지 제작, 번역만 하면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224324481289?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 영문",
-      "title_rank": 62,
+      "title_rank": 64,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -202,7 +155,7 @@
       "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
       "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
       "keyword": "치과 홈페이지",
-      "title_rank": 88,
+      "title_rank": 92,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -220,7 +173,7 @@
       "keyword": "법무사 홈페이지",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "AEO 시대의 홈페이지 제작 무엇이 달라져야 할까",
@@ -244,7 +197,7 @@
       "keyword": "랜딩페이지 제작",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "교회 홈페이지제작 꼭 필요한 구성 요소는?",
@@ -260,7 +213,7 @@
       "keyword": "수출바우처 홈페이지",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "홈페이지 제작 업체 어떤 기준으로 선정해야 할까",
@@ -290,7 +243,7 @@
       "title": "학원 홈페이지 제작 사례 셜리 영어학원",
       "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
       "keyword": "학원 홈페이지",
-      "title_rank": 10,
+      "title_rank": 9,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -316,13 +269,13 @@
       "keyword": "디지털 에이전시",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
       "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 업체",
-      "title_rank": 47,
+      "title_rank": 48,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -332,7 +285,7 @@
       "keyword": "병원홈페이지제작 사례",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "dropped"
+      "change": "still_missing"
     },
     {
       "title": "맞춤형홈페이지제작 꼭 필요한 회사가 따로 있습니다",
@@ -362,7 +315,7 @@
       "title": "2026 관광바우처 수행기관 (주)디자인펀치",
       "link": "https://blog.naver.com/giant7000/224269957856?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 수행기관",
-      "title_rank": 9,
+      "title_rank": 10,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -386,7 +339,7 @@
       "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
       "keyword": "다국어홈페이지제작 단순",
-      "title_rank": 84,
+      "title_rank": 86,
       "keyword_rank": null,
       "change": "stable"
     },
