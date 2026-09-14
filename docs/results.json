@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-09-07 12:10 KST",
+  "checked_at": "2026-09-14 12:38 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,7 +9,7 @@
     "title_missing": 32
   },
   "changes": {
-    "compared_to": "2026-08-31 12:58 KST",
+    "compared_to": "2026-09-07 12:10 KST",
     "dropped": [],
     "exposed_now": [],
     "new_posts": []
@@ -115,7 +115,7 @@
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 75,
+      "title_rank": 79,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -139,7 +139,7 @@
       "title": "B2B 쇼핑몰 제작, 고도몰 말고 커스텀 개발이 필요한 경우",
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
-      "title_rank": 33,
+      "title_rank": 32,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -147,7 +147,7 @@
       "title": "수출바우처 영문 홈페이지 제작, 번역만 하면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224324481289?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 영문",
-      "title_rank": 64,
+      "title_rank": 69,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -155,7 +155,7 @@
       "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
       "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
       "keyword": "치과 홈페이지",
-      "title_rank": 92,
+      "title_rank": 93,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -275,7 +275,7 @@
       "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
       "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 업체",
-      "title_rank": 48,
+      "title_rank": 49,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -323,7 +323,7 @@
       "title": "뷰티 브랜드 쇼핑몰 제작 사례 플라링크",
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
-      "title_rank": 31,
+      "title_rank": 33,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -339,7 +339,7 @@
       "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
       "keyword": "다국어홈페이지제작 단순",
-      "title_rank": 86,
+      "title_rank": 88,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -363,7 +363,7 @@
       "title": "의료기기 제조업 영문 홈페이지 제작 사례 테바코리아",
       "link": "https://blog.naver.com/giant7000/224241499360?fromRss=true&trackingCode=rss",
       "keyword": "의료기기 제조업",
-      "title_rank": 23,
+      "title_rank": 25,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -379,7 +379,7 @@
       "title": "공공기관 홈페이지 제작 사례 굿윌스토어",
       "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
       "keyword": "공공기관 홈페이지",
-      "title_rank": 76,
+      "title_rank": 77,
       "keyword_rank": null,
       "change": "stable"
     },
