@@ -1,20 +1,47 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-09-21 12:35 KST",
+  "checked_at": "2026-09-28 12:57 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
-    "title_exposed": 18,
-    "title_missing": 32
+    "title_exposed": 17,
+    "title_missing": 33
   },
   "changes": {
-    "compared_to": "2026-09-14 12:38 KST",
+    "compared_to": "2026-09-21 12:35 KST",
     "dropped": [],
     "exposed_now": [],
-    "new_posts": []
+    "new_posts": [
+      {
+        "title": "맞춤형 홈페이지 제작 비용·견적·기간, 업체 고르기 전에 꼭 볼 기준",
+        "link": "https://blog.naver.com/giant7000/224424527902?fromRss=true&trackingCode=rss",
+        "keyword": "맞춤형 홈페이지"
+      },
+      {
+        "title": "중소기업 홈페이지 바우처 신청 전 확인할 3가지",
+        "link": "https://blog.naver.com/giant7000/224420664844?fromRss=true&trackingCode=rss",
+        "keyword": "중소기업 홈페이지"
+      }
+    ]
   },
   "posts": [
+    {
+      "title": "맞춤형 홈페이지 제작 비용·견적·기간, 업체 고르기 전에 꼭 볼 기준",
+      "link": "https://blog.naver.com/giant7000/224424527902?fromRss=true&trackingCode=rss",
+      "keyword": "맞춤형 홈페이지",
+      "title_rank": null,
+      "keyword_rank": null,
+      "change": "new_post"
+    },
+    {
+      "title": "중소기업 홈페이지 바우처 신청 전 확인할 3가지",
+      "link": "https://blog.naver.com/giant7000/224420664844?fromRss=true&trackingCode=rss",
+      "keyword": "중소기업 홈페이지",
+      "title_rank": null,
+      "keyword_rank": null,
+      "change": "new_post"
+    },
     {
       "title": "수출바우처 수행기관, 홈페이지 제작이라면 뭘 봐야 할까",
       "link": "https://blog.naver.com/giant7000/224389729915?fromRss=true&trackingCode=rss",
@@ -115,7 +142,7 @@
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 81,
+      "title_rank": 80,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -275,7 +302,7 @@
       "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
       "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 업체",
-      "title_rank": 48,
+      "title_rank": 51,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -299,7 +326,7 @@
       "title": "에이전시 홈페이지 제작 사례 비주얼 디렉터스",
       "link": "https://blog.naver.com/giant7000/224273630725?fromRss=true&trackingCode=rss",
       "keyword": "에이전시 홈페이지",
-      "title_rank": 3,
+      "title_rank": 4,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -315,7 +342,7 @@
       "title": "2026 관광바우처 수행기관 (주)디자인펀치",
       "link": "https://blog.naver.com/giant7000/224269957856?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 수행기관",
-      "title_rank": 9,
+      "title_rank": 10,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -379,7 +406,7 @@
       "title": "공공기관 홈페이지 제작 사례 굿윌스토어",
       "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
       "keyword": "공공기관 홈페이지",
-      "title_rank": 77,
+      "title_rank": 78,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -395,22 +422,6 @@
       "title": "기업 홈페이지 제작 사례 제일종합관리",
       "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
       "keyword": "기업 홈페이지",
-      "title_rank": null,
-      "keyword_rank": null,
-      "change": "still_missing"
-    },
-    {
-      "title": "피부미용 레이저 헬리오스 785 랜딩페이지 제작 사례",
-      "link": "https://blog.naver.com/giant7000/224217075998?fromRss=true&trackingCode=rss",
-      "keyword": "피부미용 레이저",
-      "title_rank": 1,
-      "keyword_rank": null,
-      "change": "stable"
-    },
-    {
-      "title": "홈페이지 유지보수란? 운영 전 꼭 알아야 할 기준",
-      "link": "https://blog.naver.com/giant7000/224209381095?fromRss=true&trackingCode=rss",
-      "keyword": "홈페이지 유지보수란",
       "title_rank": null,
       "keyword_rank": null,
       "change": "still_missing"
