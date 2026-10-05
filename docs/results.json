@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-09-28 12:57 KST",
+  "checked_at": "2026-10-05 13:20 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,21 +9,10 @@
     "title_missing": 33
   },
   "changes": {
-    "compared_to": "2026-09-21 12:35 KST",
+    "compared_to": "2026-09-28 12:57 KST",
     "dropped": [],
     "exposed_now": [],
-    "new_posts": [
-      {
-        "title": "맞춤형 홈페이지 제작 비용·견적·기간, 업체 고르기 전에 꼭 볼 기준",
-        "link": "https://blog.naver.com/giant7000/224424527902?fromRss=true&trackingCode=rss",
-        "keyword": "맞춤형 홈페이지"
-      },
-      {
-        "title": "중소기업 홈페이지 바우처 신청 전 확인할 3가지",
-        "link": "https://blog.naver.com/giant7000/224420664844?fromRss=true&trackingCode=rss",
-        "keyword": "중소기업 홈페이지"
-      }
-    ]
+    "new_posts": []
   },
   "posts": [
     {
@@ -32,7 +21,7 @@
       "keyword": "맞춤형 홈페이지",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "new_post"
+      "change": "still_missing"
     },
     {
       "title": "중소기업 홈페이지 바우처 신청 전 확인할 3가지",
@@ -40,7 +29,7 @@
       "keyword": "중소기업 홈페이지",
       "title_rank": null,
       "keyword_rank": null,
-      "change": "new_post"
+      "change": "still_missing"
     },
     {
       "title": "수출바우처 수행기관, 홈페이지 제작이라면 뭘 봐야 할까",
@@ -142,7 +131,7 @@
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 80,
+      "title_rank": 81,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -166,7 +155,7 @@
       "title": "B2B 쇼핑몰 제작, 고도몰 말고 커스텀 개발이 필요한 경우",
       "link": "https://blog.naver.com/giant7000/224327194376?fromRss=true&trackingCode=rss",
       "keyword": "쇼핑몰 제작",
-      "title_rank": 33,
+      "title_rank": 31,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -174,7 +163,7 @@
       "title": "수출바우처 영문 홈페이지 제작, 번역만 하면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224324481289?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 영문",
-      "title_rank": 72,
+      "title_rank": 73,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -182,7 +171,7 @@
       "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
       "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
       "keyword": "치과 홈페이지",
-      "title_rank": 94,
+      "title_rank": 97,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -302,7 +291,7 @@
       "title": "관광바우처 업체 선택낭비하지 않으려면 이것부터 확인하세요",
       "link": "https://blog.naver.com/giant7000/224288190333?fromRss=true&trackingCode=rss",
       "keyword": "관광바우처 업체",
-      "title_rank": 51,
+      "title_rank": 52,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -350,7 +339,7 @@
       "title": "뷰티 브랜드 쇼핑몰 제작 사례 플라링크",
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
-      "title_rank": 32,
+      "title_rank": 30,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -366,7 +355,7 @@
       "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
       "keyword": "다국어홈페이지제작 단순",
-      "title_rank": 92,
+      "title_rank": 91,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -374,7 +363,7 @@
       "title": "대학교 연구실홈페이지제작 사례 성신여대 합성 생물학 연구소",
       "link": "https://blog.naver.com/giant7000/224250161495?fromRss=true&trackingCode=rss",
       "keyword": "대학교 연구실홈페이지제작",
-      "title_rank": 11,
+      "title_rank": 10,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -406,7 +395,7 @@
       "title": "공공기관 홈페이지 제작 사례 굿윌스토어",
       "link": "https://blog.naver.com/giant7000/224233479772?fromRss=true&trackingCode=rss",
       "keyword": "공공기관 홈페이지",
-      "title_rank": 78,
+      "title_rank": 80,
       "keyword_rank": null,
       "change": "stable"
     },
