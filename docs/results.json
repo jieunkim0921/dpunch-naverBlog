@@ -1,7 +1,7 @@
 {
   "blog_id": "giant7000",
   "blog_url": "https://blog.naver.com/giant7000",
-  "checked_at": "2026-10-05 13:20 KST",
+  "checked_at": "2026-10-12 13:35 KST",
   "max_rank": 100,
   "summary": {
     "total": 50,
@@ -9,12 +9,26 @@
     "title_missing": 33
   },
   "changes": {
-    "compared_to": "2026-09-28 12:57 KST",
+    "compared_to": "2026-10-05 13:20 KST",
     "dropped": [],
     "exposed_now": [],
-    "new_posts": []
+    "new_posts": [
+      {
+        "title": "AI 홈페이지 제작, 그래도 맞춤 업체에 맡겨야 하는 이유",
+        "link": "https://blog.naver.com/giant7000/224434146815?fromRss=true&trackingCode=rss",
+        "keyword": "AI 홈페이지"
+      }
+    ]
   },
   "posts": [
+    {
+      "title": "AI 홈페이지 제작, 그래도 맞춤 업체에 맡겨야 하는 이유",
+      "link": "https://blog.naver.com/giant7000/224434146815?fromRss=true&trackingCode=rss",
+      "keyword": "AI 홈페이지",
+      "title_rank": null,
+      "keyword_rank": null,
+      "change": "new_post"
+    },
     {
       "title": "맞춤형 홈페이지 제작 비용·견적·기간, 업체 고르기 전에 꼭 볼 기준",
       "link": "https://blog.naver.com/giant7000/224424527902?fromRss=true&trackingCode=rss",
@@ -131,7 +145,7 @@
       "title": "GEO 대행사 고를 때 진짜 봐야 할 기준 3가지",
       "link": "https://blog.naver.com/giant7000/224331929221?fromRss=true&trackingCode=rss",
       "keyword": "GEO 대행사",
-      "title_rank": 81,
+      "title_rank": 82,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -163,7 +177,7 @@
       "title": "수출바우처 영문 홈페이지 제작, 번역만 하면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224324481289?fromRss=true&trackingCode=rss",
       "keyword": "수출바우처 영문",
-      "title_rank": 73,
+      "title_rank": 76,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -171,7 +185,7 @@
       "title": "치과 홈페이지 제작, 예약 버튼 누르게 만드는 구조 3가지",
       "link": "https://blog.naver.com/giant7000/224320923671?fromRss=true&trackingCode=rss",
       "keyword": "치과 홈페이지",
-      "title_rank": 97,
+      "title_rank": 99,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -259,7 +273,7 @@
       "title": "학원 홈페이지 제작 사례 셜리 영어학원",
       "link": "https://blog.naver.com/giant7000/224302980946?fromRss=true&trackingCode=rss",
       "keyword": "학원 홈페이지",
-      "title_rank": 9,
+      "title_rank": 10,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -339,7 +353,7 @@
       "title": "뷰티 브랜드 쇼핑몰 제작 사례 플라링크",
       "link": "https://blog.naver.com/giant7000/224257832218?fromRss=true&trackingCode=rss",
       "keyword": "뷰티 브랜드",
-      "title_rank": 30,
+      "title_rank": 28,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -355,7 +369,7 @@
       "title": "다국어홈페이지제작 단순 번역으로 끝내면 안 되는 이유",
       "link": "https://blog.naver.com/giant7000/224252272695?fromRss=true&trackingCode=rss",
       "keyword": "다국어홈페이지제작 단순",
-      "title_rank": 91,
+      "title_rank": 94,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -363,7 +377,7 @@
       "title": "대학교 연구실홈페이지제작 사례 성신여대 합성 생물학 연구소",
       "link": "https://blog.naver.com/giant7000/224250161495?fromRss=true&trackingCode=rss",
       "keyword": "대학교 연구실홈페이지제작",
-      "title_rank": 10,
+      "title_rank": 13,
       "keyword_rank": null,
       "change": "stable"
     },
@@ -406,14 +420,6 @@
       "title_rank": 4,
       "keyword_rank": null,
       "change": "stable"
-    },
-    {
-      "title": "기업 홈페이지 제작 사례 제일종합관리",
-      "link": "https://blog.naver.com/giant7000/224217103668?fromRss=true&trackingCode=rss",
-      "keyword": "기업 홈페이지",
-      "title_rank": null,
-      "keyword_rank": null,
-      "change": "still_missing"
     }
   ]
 }
