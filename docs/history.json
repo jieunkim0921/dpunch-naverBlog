@@ -160,6 +160,13 @@
       "total": 50,
       "exposed": 49,
       "missing": 1
+    },
+    {
+      "date": "2026-11-02",
+      "checked_at": "2026-11-02 13:42 KST",
+      "total": 50,
+      "exposed": 49,
+      "missing": 1
     }
   ]
 }
